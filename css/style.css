@@ -110,7 +110,6 @@ ul{
 .menu-bg .menu .nav-part ul li a:hover{
     color: #fce38a;
     border-bottom: 1px solid  #fce38a;
-    /* এখানে বর্ডার মোটা করে দিলে ট্রানজিশন পেয়ে যাচ্ছে, অর্থাৎ- বর্ডারটা চিকন থেকে মোটা হচ্ছে,  যা দেখতে অসুন্দর লাগছে। তাই পিএসডি ফাইলের মতো বর্ডার ৩ পিক্সেল দিতে পারিনি। এটা আমি কীভাবে করতে পারি? */
 }
 .menu-bg .menu .nav-part ul li .active{
     color: #fce38a;
@@ -130,9 +129,6 @@ ul{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    /* শুধু menu-bgকে position: abolute; করলেই এখানে আমার কাঙ্খিত আউটপুট পেয়ে যাচ্ছি, সেক্ষেত্রে .banner-bgকে position: relative; করা কি বাধ্যতামূলক নাকি ইচ্ছাধীন। এখানে স্ট্যান্ডার্ড কী? */
-
     position: relative;
 }
 .banner-bg .overlay{
@@ -199,22 +195,10 @@ ul{
 /* =========================
     About Section Stars
 ========================= */
-.about-bg{
-    
-}
 .about-bg .about{
     background: #000;
     height: 200px;
-
 }
 /* =========================
     About Section Ends
-========================= */
-
-
-/* =========================
-    Footer Stars
-========================= */
-/* =========================
-    Footer Ends
 ========================= */
