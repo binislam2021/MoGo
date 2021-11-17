@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.full-wrapper{
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* =========================
+    Fonts import Starts
+========================= */
+@font-face{
+    font-family: 'mont-reg';
+    src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: 'mont-bold';
+    src: url(../fonts/montserrat/Montserrat-Bold.ttf);
+}
+@font-face{
+    font-family: 'kaushan';
+    src: url(../fonts/kaushan/KaushanScript-Regular.ttf);
+}
+/* =========================
+    Fonts imnport Ends
+========================= */
+
+.single-line{
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin: 47px auto;
+}
+
+/* ======================
+    Common CSS Ends
+====================== */
+
+
+/* =========================
+    Menu Starts
+========================= */
+.menu-bg{
+    height: 30px;
+    position: absolute;
+    z-index: 2;
+    margin: 30px 0;
+}
+.menu-bg .menu{
+    height: 100%;  
+}
+.menu-bg .menu .logo-part{
+    height: 100%;
+    width: 100px;
+    float: left;
+}
+.menu-bg .menu .logo-part h6{
+    float: right;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'mont-bold';
+    color: #ffffff;
+}
+.menu-bg .menu .logo-part h6 .tcc{
+    text-transform: capitalize;
+}
+.menu-bg .menu .nav-part{
+    height: 100%;
+    width: 1100px;
+    float: left;
+}
+.menu-bg .menu .nav-part ul{
+    float: right;
+}
+.menu-bg .menu .nav-part ul li{
+    float: left;
+}
+.menu-bg .menu .nav-part ul li a{
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'mont-reg';
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-right: 55px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.menu-bg .menu .nav-part ul li .last{
+    margin-right: 0;
+}
+.menu-bg .menu .nav-part ul li a:hover{
+    color: #fce38a;
+    border-bottom: 1px solid  #fce38a;
+    /* এখানে বর্ডার মোটা করে দিলে ট্রানজিশন পেয়ে যাচ্ছে, অর্থাৎ- বর্ডারটা চিকন থেকে মোটা হচ্ছে,  যা দেখতে অসুন্দর লাগছে। তাই পিএসডি ফাইলের মতো বর্ডার ৩ পিক্সেল দিতে পারিনি। এটা আমি কীভাবে করতে পারি? */
+}
+.menu-bg .menu .nav-part ul li .active{
+    color: #fce38a;
+    border-bottom: 3px solid  #fce38a;
+}
+/* =========================
+    Menu Ends
+========================= */
+
+
+/* =========================
+    Banner Starts
+========================= */
+.banner-bg{
+    height: 1000px;
+    background: url(../images/banner-eagle.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* শুধু menu-bgকে position: abolute; করলেই এখানে আমার কাঙ্খিত আউটপুট পেয়ে যাচ্ছি, সেক্ষেত্রে .banner-bgকে position: relative; করা কি বাধ্যতামূলক নাকি ইচ্ছাধীন। এখানে স্ট্যান্ডার্ড কী? */
+
+    position: relative;
+}
+.banner-bg .overlay{
+    height: 100%;
+    background: linear-gradient(#f38181, #fce38a);
+    opacity: 0.9;
+}
+/* =========================
+    Banner Ends
+========================= */
+.banner-bg .banner .banner-details{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    color: #ffffff;
+    text-align: center;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.banner-bg .banner .banner-details p{
+    font-family: 'kaushan';
+    font-size: 72px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+.banner-bg .banner .banner-details h1{
+    font-family: 'mont-bold';
+    font-size: 150px;
+    text-transform: uppercase;
+    line-height: 148px;
+}
+.banner-bg .banner .banner-details .single-line{
+    background: #ffffff;
+}
+.banner-bg .banner .banner-details a{
+    font-family: 'mont-bold';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    padding: 12px 30px;
+    display: inline-block;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.banner-bg .banner .banner-details a:hover{
+    background: #ffffff;
+    color: #FDD299;
+}
+.banner-bg .banner .banner-details .circles{
+    margin-top: 118px;
+    margin-bottom: 65px;
+}
+.banner-bg .banner .banner-details .circles i:nth-of-type(2){
+    color: #ff2828;
+    margin: 0 3px;
+}
+/* =========================
+    About Section Stars
+========================= */
+.about-bg{
+    
+}
+.about-bg .about{
+    background: #000;
+    height: 200px;
+
+}
+/* =========================
+    About Section Ends
+========================= */
+
+
+/* =========================
+    Footer Stars
+========================= */
+/* =========================
+    Footer Ends
+========================= */
