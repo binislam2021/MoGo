@@ -232,6 +232,9 @@ ul{
     padding: 0 110px 100px 140px;
     line-height: 24px;
 }
+.about-bg .about p::first-letter{
+	text-transform: capitalize;
+}
 .about-bg .about .story-item{
     height: 250px;
     width: 380px;
