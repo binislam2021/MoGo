@@ -377,3 +377,36 @@ ul{
 /* =========================
     Service Ends
 ========================= */
+
+
+/* =========================
+    Design Part Stars
+========================= */
+.design-bg{
+    height: 850px;
+    background: url(../images/design-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.design-bg .design{
+    height: 100%;
+    margin-bottom: 110px;
+    position: relative;
+}
+.design-bg .design .section-head{
+   padding-top: 110px;
+}
+.design-bg .design .android{
+    padding-left: 335px;
+    float: left;
+}
+.design-bg .design .iphone {
+    position: absolute;
+    right: 230px;
+    bottom: -82px;
+    float: right;
+}
+/* =========================
+    Design Part Ends
+========================= */
