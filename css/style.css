@@ -48,18 +48,18 @@ ul{
 ========================= */
 
 /* Section Head CSS */
-.about-bg .about .section-head{
+.section-head{
     text-align: center;
 }
-.about-bg .about .section-head h6{
+.section-head h6{
     font-family: 'kaushan';
     font-size: 24px;
     color: #333333;
 }
-.about-bg .about .section-head h6::first-letter{
+.section-head h6::first-letter{
     text-transform: capitalize;
 }
-.about-bg .about .section-head h3{
+.section-head h3{
     font-family: 'mont-bold';
     font-size: 30px;
     color: #333333;
