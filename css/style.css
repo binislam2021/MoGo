@@ -301,9 +301,12 @@ ul{
     text-align: center;
     color: #ffffff;
     margin-right: 50px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
 }
 .summary-bg .summary .summary-item:last-of-type{
     margin-right: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 .summary-bg .summary .summary-item h3{
    padding-top: 40%;
@@ -398,13 +401,15 @@ ul{
    padding-top: 110px;
 }
 .design-bg .design .android{
+    position: absolute;
+    bottom: 0;
     padding-left: 335px;
     float: left;
 }
 .design-bg .design .iphone {
     position: absolute;
     right: 230px;
-    bottom: -82px;
+    bottom: -90px;
     float: right;
 }
 /* =========================
