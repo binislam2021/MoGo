@@ -277,3 +277,38 @@ ul{
 /* =========================
     About Section Ends
 ========================= */
+
+/* =========================
+    Short Summary Stars
+========================= */
+.summary-bg{
+    height: 270px;
+    background: #95e1d3;
+}
+.summary-bg .summary{
+    height: 100%;
+}
+.summary-bg .summary .summary-item{
+    height: 100%;
+    width: 200px;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 50px;
+}
+.summary-bg .summary .summary-item:last-of-type{
+    margin-right: 0;
+}
+.summary-bg .summary .summary-item h3{
+   padding-top: 40%;
+   font-family: 'mont-bold';
+   font-size: 72px;
+}
+.summary-bg .summary .summary-item p{
+    text-transform: uppercase;
+    font-family: 'mont-reg';
+    font-size: 14px;
+}
+/* =========================
+    Short Summary Ends
+========================= */
