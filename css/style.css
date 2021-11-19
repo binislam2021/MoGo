@@ -14,7 +14,7 @@ ul{
 .clr{
     clear: both;
 }
-.ttc{
+.ttc::first-letter{
     text-transform: capitalize;
 }
 .full-wrapper{
