@@ -14,6 +14,9 @@ ul{
 .clr{
     clear: both;
 }
+.ttc{
+    text-transform: capitalize;
+}
 .full-wrapper{
     width: 100%;
 }
