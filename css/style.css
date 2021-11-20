@@ -160,10 +160,6 @@ ul{
     background: linear-gradient(#f38181, #fce38a);
     opacity: 0.9;
 }
-
-/* =========================
-    Banner Ends
-========================= */
 .banner-bg .banner .banner-details{
     position: absolute;
     top: 22%;
@@ -217,9 +213,13 @@ ul{
     color: #ff2828;
     margin: 0 3px;
 }
+/* =========================
+    Banner Ends
+========================= */
+
 
 /* =========================
-    About Section Stars
+    About Section Starts
 ========================= */
 .about-bg{
     margin: 90px 0 110px 0;
@@ -284,8 +284,9 @@ ul{
     About Section Ends
 ========================= */
 
+
 /* =========================
-    Short Summary Stars
+    Short Summary Starts
 ========================= */
 .summary-bg{
     height: 270px;
@@ -324,7 +325,7 @@ ul{
 
 
 /* =========================
-    Service Stars
+    Service Starts
 ========================= */
 .service-bg{
     height: 400px;
@@ -383,7 +384,7 @@ ul{
 
 
 /* =========================
-    Design Part Stars
+    Design Part Starts
 ========================= */
 .design-bg{
     height: 850px;
@@ -418,7 +419,7 @@ ul{
 
 
 /* =========================
-    We Do Stars
+    We Do Starts
 ========================= */
 .wedo-bg{
     height: 670px;
@@ -501,4 +502,83 @@ ul{
 }
 /* =========================
     We Do Ends
+========================= */
+
+
+/* =========================
+    Client's Comments Start
+========================= */
+.comment-bg{
+    height: 290px;
+    background: #f8f8f8;
+    margin-bottom: 100px;
+}
+.comment-bg .comment{
+    height: 100%;
+}
+.comment-bg .comment .left-arrow{
+    height: 100%;
+    width: 70px;
+    float: left;
+    line-height: 290px;
+    text-align: center;
+}
+.comment-bg .comment .msg-icon{
+    height: 100%;
+    width: 170px;
+    float: left;
+    margin: 0 33px;
+}
+.comment-bg .comment .msg-icon .img-outline{
+    line-height: 290px;
+    text-align: center;
+    position: relative;
+}
+.comment-bg .comment .msg-icon .img-outline img:last-of-type{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.comment-bg .comment .txt-cmnt{
+    height: 100%;
+    width: 791px;
+    float: left;
+    margin-right: 33px;
+}
+.comment-bg .comment .txt-cmnt .main-comnt p{
+    font-family: 'robo-litalic';
+    color: #999999;
+    font-size: 23.5px;
+    line-height: 36px;
+    padding-top: 75px;
+}
+.comment-bg .comment .txt-cmnt .author-name{
+    margin-top: -10px;
+}
+.comment-bg .comment .txt-cmnt .author-name .single-line{
+    float: left;
+}
+.comment-bg .comment .txt-cmnt .author-name p{
+    font-family: 'kaushan';
+    font-size: 24px;
+    color: #333333;
+    text-transform: capitalize;
+    float: left;
+    line-height: 78px;
+    margin-left: 10px;
+}
+.comment-bg .comment .right-arrow{
+    height: 100%;
+    width: 70px;
+    float: left;
+    line-height: 290px;
+    text-align: center;
+}
+/* =========================
+    Client's Comments End
 ========================= */
