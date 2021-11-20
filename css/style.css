@@ -415,3 +415,90 @@ ul{
 /* =========================
     Design Part Ends
 ========================= */
+
+
+/* =========================
+    We Do Stars
+========================= */
+.wedo-bg{
+    height: 670px;
+    margin: 112px 0 120px 0;
+}
+.wedo-bg .wedo .ttc{
+    padding: 0 130px;
+    text-align: center;
+    color: #999999;
+    line-height: 24px;
+    font-family: 'arial';
+    font-size: 15px;
+    margin-bottom: 96px;
+}
+.wedo-bg .wedo .wedo-item .left-item{
+    margin-right: 30px;
+    float: left;
+}
+.wedo-bg .wedo .wedo-item .left-item img{
+    height: 388px;
+    width: 570px;
+}
+.wedo-bg .wedo .wedo-item .right-item{
+    width: 600px;
+    height: 380px;
+    float: right;
+    line-height: 60px;
+}
+.wedo-bg .wedo .wedo-item .right-item .common-item{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #e5e5e5;
+    font-family: 'mont-bold';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.wedo-bg .wedo .wedo-item .right-item img{
+    padding-left: 15px;
+}
+.wedo-bg .wedo .wedo-item .right-item .limg{
+    width: 60px;
+    height: 100%;
+    float: left;
+}
+.wedo-bg .wedo .wedo-item .right-item .para{
+    width: 480px;
+    height: 100%;
+    float: left;
+}
+.wedo-bg .wedo .wedo-item .right-item .rimg{
+    width: 60px;
+    height: 100%;
+    float: left;
+}
+.wedo-bg .wedo .wedo-item .right-item .photography-details{
+    width: 602px;
+    height: 180px;
+    line-height: 24px;
+    font-family: 'robo-litalic';
+    font-size: 15px;
+    color: #999999;
+    padding: 12px 30px 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+.wedo-bg .wedo .wedo-item .right-item .photography-details::first-letter{
+    text-transform: capitalize;
+}
+.wedo-bg .wedo .wedo-item .right-item .creativity{
+    width: 100%;
+    height: 60px;
+    margin: 10px 0;
+}
+.wedo-bg .wedo .wedo-item .right-item .web-design{
+    width: 100%;
+    height: 60px;
+}
+/* =========================
+    We Do Ends
+========================= */
