@@ -43,6 +43,10 @@ ul{
     font-family: 'kaushan';
     src: url(../fonts/kaushan/KaushanScript-Regular.ttf);
 }
+@font-face {
+    font-family: 'robo-litalic';
+    src: url(../fonts/roboto/Roboto-LightItalic.ttf);
+}
 /* =========================
     Fonts imnport Ends
 ========================= */
