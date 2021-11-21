@@ -704,6 +704,8 @@ ul{
     height: 100%;
     text-align: center;
     line-height: 250px;
+}
+.branding-bg .branding img{
     opacity: 0.8;
 }
 /* =========================
