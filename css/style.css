@@ -582,3 +582,126 @@ ul{
 /* =========================
     Client's Comments End
 ========================= */
+
+
+/* =========================
+    Team Starts
+========================= */
+.team-bg{
+    height: 830px;
+    margin-bottom: 120px;
+}
+.team-bg .team{
+    height: 830px;
+}
+.team-bg .team p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    text-align: center;
+    padding: 0 110px 92px 140px;
+    line-height: 24px;
+}
+.team-bg .team p::first-letter{
+    text-transform: capitalize;
+}
+.team-bg .team .team-member{
+    height: 470px;
+    width: 380px;
+    float: left;
+    position: relative;
+}
+.team-bg .team .team-member .overlay{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#f38181, #fce38a);
+    position: absolute;
+    top: -110px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.team-bg .team .team-member:hover .overlay{
+    opacity: 0.9;
+    top: 0;
+    visibility: visible;
+}
+.team-bg .team .team-member .overlay .overlay-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.team-bg .team .team-member .overlay .overlay-link li{
+    float: left;
+}
+.team-bg .team .team-member .overlay .overlay-link a{
+    color: #f38181;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    padding: 12px 15px;
+    border-right: 1px solid #f38181;
+    background: #fce38a;
+}
+.team-bg .team .team-member .overlay .overlay-link a:hover{
+    background: #f38181;
+    color: #ffffff;
+}
+.team-bg .team .team-member .overlay .overlay-link a.no-border{
+    border: none;
+}
+.team-bg .team .team-member .member-details .member-name{
+    text-transform: uppercase;
+    font-family: 'mont-bold';
+    color: #333333;
+    font-size: 14px;
+    padding: 20px 0 0 0;
+}
+.team-bg .team .team-member .member-details .member-profession{
+    text-transform: capitalize;
+    font-family: 'robo-litalic';
+    color: #999999;
+    font-size: 15px;
+    padding-bottom: 0;
+    padding-left: 107px;
+}
+.team-bg .team .team-member .member-details .member-profession .upper{
+    text-transform: uppercase;
+}
+.team-bg .team .team-member .member-details .member-profession .lower{
+    text-transform: lowercase;
+}
+/* =========================
+    Team Ends
+========================= */
+
+
+/* =========================
+    Branding Logos Start
+========================= */
+.branding-bg{
+    height: 250px;
+    background: #f8f8f8;
+    margin-bottom: 110px;
+}
+.branding-bg .branding{
+    height: 100%;
+    text-align: center;
+    line-height: 250px;
+    opacity: 0.8;
+}
+/* =========================
+    Branding Logos End
+========================= */
