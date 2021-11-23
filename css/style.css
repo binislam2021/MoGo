@@ -1037,3 +1037,33 @@ ul{
 /* =========================
     Blog Section Ends
 ========================= */
+
+
+/* =========================
+    Open Map Starts
+========================= */
+.map-bg{
+    height: 200px;
+    margin-bottom: 75px;
+    background: url(../images/open-map-b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.map-bg .map .map-content{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'mont-bold';
+    font-size: 24px;
+    color: #f38181;
+    padding-top: 55px;
+}
+.map-bg .map .map-content i{
+    padding-bottom: 10px;
+}
+.map-bg .map .map-content .single-line{
+    margin-top: 20px;
+}
+/* =========================
+    Open Map Ends
+========================= */
