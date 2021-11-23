@@ -950,3 +950,90 @@ ul{
 /* =========================
     Happy Clients End
 ========================= */
+
+
+/* =========================
+    Blog Section Starts
+========================= */
+.blog-bg{
+    height: 550px;
+    margin-bottom: 115px;
+}
+.blog-bg .blog{
+    height: 398px;
+}
+.blog-bg .blog .blog-item{
+    height: 100%;
+}
+.blog-bg .blog .blog-item .item{
+    height: 100%;
+    width: 380px;
+    float: left;
+    position: relative;
+}
+.blog-bg .blog .blog-item .item:nth-child(2){
+    margin: 0 30px;
+}
+.blog-bg .blog .blog-item .item .date{
+    width: 60px;
+    height: 70px;
+    background: #95e1d3;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    left: -10px;
+    bottom: 170px;
+}
+.blog-bg .blog .blog-item .item .date h3{
+    padding-top: 5px;
+    font-family: 'mont-bold';
+    font-size: 30px;
+}
+.blog-bg .blog .blog-item .item .date p{
+    font-family: 'robo-litalic';
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.blog-bg .blog .blog-item .item .ttu{
+    text-transform: uppercase;
+    font-family: 'mont-bold';
+    font-size: 14px;
+    color: #333333;
+    margin: 15px 0;
+}
+.blog-bg .blog .blog-item .item .ttc{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    line-height: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.blog-bg .blog .blog-item .item .padd-20{
+    padding-right: 20px;
+}
+
+.blog-bg .blog .blog-item .counter{
+    margin-top: 20px;
+    color: #999999;
+    font-family: 'robo-litalic';
+    font-size: 15px;
+}
+.blog-bg .blog .blog-item .counter .view-counter{
+    float: left;
+    margin-right: 30px;
+}
+.blog-bg .blog .blog-item .counter .comment-counter{
+    float: left;
+}
+.blog-bg .blog .blog-item .counter .pashapashi{
+    float: left;
+    padding-left: 5px;
+}
+.blog-bg .blog .blog-item .counter i{
+    color: #95e1d3;
+    font-size: 18px;
+}
+/* =========================
+    Blog Section Ends
+========================= */
