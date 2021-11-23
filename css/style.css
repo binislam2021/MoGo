@@ -1067,3 +1067,213 @@ ul{
 /* =========================
     Open Map Ends
 ========================= */
+
+
+/* =========================
+    Footer Starts
+========================= */
+.footer-bg{
+    height: 480px;
+    background: #f8f8f8;
+    padding-top: 75px;
+}
+/* Footer Shortcut */
+.footer-bg .bb{
+    border-bottom: 1px solid #e5e5e5;
+}
+.footer-bg .footer{
+    height: 100%;
+}
+.footer-bg .footer .footer-shortcut{
+    height: 420px;
+    box-sizing: border-box;
+}
+.footer-bg .footer .footer-shortcut .mogo-details{
+    height: 100%;
+    width: 480px;
+    float: left;
+}
+.footer-bg .footer .footer-shortcut .mogo-details a img{
+    width: 135px;
+    height: 32px;
+}
+.footer-bg .footer .footer-shortcut .mogo-details .ttc{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    line-height: 24px;
+    margin: 40px 0 40px 0;
+    padding-right: 20px;
+}
+.footer-bg .footer .footer-shortcut .mogo-details .follo{
+    font-family: 'mont-reg';
+    color: #333333;
+    font-size: 14px;
+    padding-bottom: 18px;
+}
+.footer-bg .footer .footer-shortcut .mogo-details .follo span{
+    font-family: 'mont-bold';
+    font-size: 15px;
+}
+.footer-bg .footer .footer-shortcut .mogo-details .follow{
+    font-family: 'robo-litalic';
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #999999;
+    margin: 15px 0 30px 0;
+}
+.footer-bg .footer .footer-shortcut .mogo-details .follow p{
+    display: inline-block;
+    padding-right: 15px;
+}
+.footer-bg .footer .footer-shortcut .mogo-details .follow ul{
+    display: inline-block;
+}
+.footer-bg .footer .footer-shortcut .mogo-details .follow ul li{
+    display: inline-block;
+    padding-right: 8px;
+}
+.footer-bg .footer .footer-shortcut .mogo-details .follow ul li:last-of-type{
+    padding-right: 0;
+}
+.footer-bg .footer .footer-shortcut .mogo-details .follow ul li a i{
+    color: #95e1d3;
+}
+
+
+.footer-bg .footer .footer-shortcut .mogo-details form input{
+    line-height: 40px;
+    outline: none;
+    border: 1px solid #e7e7e7;
+    text-transform: capitalize;
+    font-family: 'robo-litalic';
+    font-size: 15px;
+    color: #cccccc;
+    padding: 0 30px 0 10px;
+}
+.footer-bg .footer .footer-shortcut .mogo-details form button{
+    line-height: 42px;
+    padding: 0 35px 0 35px;
+    font-family: 'mont-bold';
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #95e1d3;
+    border: 0;
+    margin-left: -5px;
+}
+
+
+.footer-bg .footer .footer-shortcut .blogs{
+    height: 100%;
+    width: 370px;
+    float: left;
+    margin: 0 30px;
+}
+.footer-bg .footer .footer-shortcut .blogs h4{
+    color: #333333;
+    font-family: 'mont-reg';
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    padding-top: 3px;
+}
+.footer-bg .footer .footer-shortcut .blogs .blog-post{
+    height: 114px;
+}
+.footer-bg .footer .footer-shortcut .blogs .blog-post .blog-img{
+    width: 120px;
+    height: 80px;
+    float: left;
+    margin-right: 20px;
+}
+.footer-bg .footer .footer-shortcut .blogs .blog-post .blog-txt{
+    width: 230px;
+    height: 80px;
+    float: left;  
+}
+.footer-bg .footer .footer-shortcut .blogs .blog-post .blog-txt .post{
+    text-transform: uppercase;
+    font-family: 'mont-bold';
+    font-size: 12px;
+    color: #333333;
+    line-height: 18px;
+    margin: 15px 0 5px 0;
+}
+.footer-bg .footer .footer-shortcut .blogs .blog-post .blog-txt .date{
+    text-transform: capitalize;
+    font-family: 'robo-litalic';
+    font-size: 13px;
+    color: #999999;
+}
+
+
+.footer-bg .footer .footer-shortcut .instagram{
+    height: 100%;
+    width: 290px;
+    float: left;
+}
+.footer-bg .footer .footer-shortcut .instagram h4{
+    color: #333333;
+    font-family: 'mont-reg';
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    padding-top: 3px;
+}
+.footer-bg .footer .footer-shortcut .instagram .line{
+    height: 90px;
+}
+.footer-bg .footer .footer-shortcut .instagram .line:nth-child(3){
+    margin: 2px 0;
+}
+.footer-bg .footer .footer-shortcut .instagram .line .img{
+    width: 95px;
+    height: 90px;
+    float: left;
+}
+.footer-bg .footer .footer-shortcut .instagram .line .img:nth-child(2){
+    margin: 0 2px;
+}
+.footer-bg .footer .footer-shortcut .instagram .line .img img{
+    width: 95px;
+    height: 90px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.footer-bg .footer .footer-shortcut .instagram .line .img img:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.footer-bg .footer .footer-shortcut .instagram p{
+    font-family: 'robo-litalic';
+    font-size: 13px;
+    color: #333333;
+    margin-top: 15px;
+}
+
+/* Footer Copyright */
+.footer-bg .footer .footer-copyright{
+    height: 60px;
+    font-family: 'mont-reg';
+    color: #333333;
+    line-height: 60px;
+    text-align: center;
+}
+.footer-bg .footer .footer-copyright .ttu{
+    text-transform: uppercase;
+}
+.footer-bg .footer .footer-copyright a{
+    color: #f38181;
+}
+/* =========================
+    Footer Ends
+========================= */
